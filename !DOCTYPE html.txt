@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ChiruCars Wigan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .content {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    .gallery img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .contact-info {
+      margin: 20px 0;
+    }
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      max-width: 500px;
+      margin: auto;
+    }
+    form input, form textarea {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1em;
+    }
+    form button {
+      background-color: #111;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #111;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ChiruCars Wigan</h1>
+  <p>Reliable Used Cars at Affordable Prices</p>
+</header>
+
+<div class="content">
+
+  <section class="gallery">
+    <!-- Add car images below -->
+    <img src="https://via.placeholder.com/200x150" alt="Car 1">
+    <img src="https://via.placeholder.com/200x150" alt="Car 2">
+    <img src="https://via.placeholder.com/200x150" alt="Car 3">
+  </section>
+
+  <section class="contact-info">
+    <h2>Contact</h2>
+    <p>📞 Phone / WhatsApp: <a href="tel:+447771370743">07771 370743</a></p>
+    <p>✉️ Email: <a href="mailto:nextcrys7@gmail.com">nextcrys7@gmail.com</a></p>
+  </section>
+
+  <section class="form">
+    <h2>Request a Quote</h2>
+    <form action="https://formsubmit.co/nextcrys7@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="tel" name="phone" placeholder="Your phone number" required>
+      <textarea name="message" rows="4" placeholder="Your message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+</div>
+
+<footer>
+  <p>&copy; 2025 ChiruCars Wigan. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
